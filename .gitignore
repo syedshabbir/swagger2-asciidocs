@@ -1,0 +1,9 @@
+.idea/
+.gradle/
+.settings/
+.vagrant/
+bin/
+build/
+logs/
+.project
+.classpath

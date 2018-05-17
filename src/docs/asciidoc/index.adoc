@@ -1,0 +1,2 @@
+include::{generated}/swagger.adoc[]
+include::manual_content1.adoc[]

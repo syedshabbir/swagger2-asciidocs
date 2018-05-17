@@ -1,0 +1,26 @@
+logging:
+    directory: logs/
+    file: logs/swagger2-asciidocs-pdf-html-generator.log
+    level:
+        org.springframework: INFO 
+        gradle.swagger: DEBUG
+
+spring:
+    jpa:
+        show-sql: true
+        format_sql: true
+        hibernate:
+            ddl-auto: none
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+    datasource:
+        test-on-borrow: true
+        validation-query: SELECT 1;
+        validation-interval: 60000
+        platform: postgres
+        url: jdbc:postgresql://localhost/postgres
+        username: postgres
+        password: syed
+        driver-class-name: org.postgresql.Driver
+    

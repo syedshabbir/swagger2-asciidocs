@@ -1,0 +1,9 @@
+== Chapter of manual content 1
+
+This is some dummy text to describe details about the API, that are not available through Swagger etc.
+
+=== Sub chapter
+
+Dummy text of sub chapter
+
+
