@@ -3,12 +3,12 @@
 You can run the following to generate offline docs
 
 ```
-> .\gradlew clean generateSwaggerDocumentation asciidoctor build
+> .\gradlew clean generateSwaggerDocumentation asciidoctor
 ```
 
-content built to swagger2-asciidocs-pdf-html-generator/build/asciidoc
+content built to swagger2-asciidocs-pdf-html-generator/build/asciidoc. PDF content in 'pdf' directory and 'HTML5' content in 'html5' directory.
 
-and to view docs online
+And to view docs online
 
 ```
 >  .\gradlew clean generateSwaggerDocumentation asciidoctor build
