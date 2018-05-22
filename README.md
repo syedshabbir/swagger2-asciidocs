@@ -1,9 +1,12 @@
 # swagger2-asciidocs-pdf-html-generator
 
 You can run the following to generate offline docs
+
 ```
 > .\gradlew clean generateSwaggerDocumentation asciidoctor build
 ```
+
+content built to swagger2-asciidocs-pdf-html-generator/build/asciidoc
 
 and to view docs online
 
