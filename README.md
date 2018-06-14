@@ -10,6 +10,10 @@ content built to swagger2-asciidocs-pdf-html-generator/build/asciidoc. PDF conte
 
 And to view docs online
 
+Use the [script](scripts/create-mapping-table.sql) to create a Postgres table and update [yaml file](src/main/resources/application.yml) with your datasource values.
+
+Run commands below
+
 ```
 >  .\gradlew clean generateSwaggerDocumentation asciidoctor build
 > java -jar .\build\libs\swagger2-asciidocs-pdf-html-generator-1.0.jar
